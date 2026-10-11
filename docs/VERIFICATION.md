@@ -19,6 +19,8 @@
 
 ## 验证边界
 
-本轮没有对用户真机、所有Android版本/OEM、后台耗电、真实聊天服务与中文TTS做全面验证。GitHub CI文件已经提供，尚未在远程实际执行；原创代码已由维护者选择MIT，参考角色素材的公开发行授权仍待核实。未执行正式签名Release、商店送审或GitHub公开发布，不能据此宣称满足全部商店发行标准。
+本轮没有对用户真机、所有Android版本/OEM、后台耗电、真实聊天服务与中文TTS做全面验证。源码已公开至 GitHub，远程构建检查见 [Lite checks](https://github.com/keastforever-web/my-pet-world-lite/actions/workflows/android-lite.yml)，请核对对应提交的状态。CI 使用自己的 Debug 签名，不替代此页记录的本地设备验证与发行附件签名。
+
+原创代码已由维护者选择MIT，参考角色素材的公开发行授权仍待核实。GitHub 发行附件是 Debug 测试版；未执行正式签名 Release 或商店送审，不能据此宣称满足全部商店发行标准。
 
 原始Gradle、设备测试、签名日志和模拟器截图保留在维护者本地验证目录，不将工作站路径和运行记录带入公共源码。

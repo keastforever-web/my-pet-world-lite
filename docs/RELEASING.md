@@ -9,7 +9,7 @@
 
 ## 上传源码
 
-创建仓库后，将此目录作为 Git 仓库根目录。GitHub Desktop 可“Add local repository”；命令行可在此目录执行 `git init -b main`，检查待提交文件后再提交并推送。仓库地址由维护者填写，不预设用户账号或覆盖已有远程。
+维护者仓库为 [keastforever-web/my-pet-world-lite](https://github.com/keastforever-web/my-pet-world-lite)。后续开发请克隆该仓库，再检查待提交文件、提交并推送。首次公开使用独立的干净 Git 历史；不要重新初始化已有仓库或覆盖别人的远程。
 
 新增源码提交前执行 `git status --short`，尤其检查签名文件、.env、local.properties、数据库与 APK 没有被跟踪。新仓库应选择不包含旧工程历史的干净目录，旧项目的 .git 不应复制进来。Linux/macOS 下运行 `chmod +x gradlew`；必要时用 `git update-index --chmod=+x gradlew` 保存执行权限。
 

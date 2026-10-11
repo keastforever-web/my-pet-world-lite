@@ -11,7 +11,8 @@
   "code_license_selected": true,
   "code_license": "MIT",
   "asset_distribution_review_complete": false,
-  "github_ci_executed": false,
+  "github_ci_executed": true,
+  "github_ci_status_url": "https://github.com/keastforever-web/my-pet-world-lite/actions/workflows/android-lite.yml",
   "apks": [
     {
       "abi": "arm64-v8a",
