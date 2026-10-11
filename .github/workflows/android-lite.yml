@@ -11,7 +11,7 @@ concurrency:
   cancel-in-progress: true
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 35
     steps:
       - uses: actions/checkout@v7
@@ -25,8 +25,10 @@ jobs:
         run: python3 tools/check_release.py
       - name: Install pinned Android SDK
         run: |
-          printf 'y\n%.0s' {1..50} | sdkmanager --licenses > /dev/null
-          sdkmanager 'platforms;android-37.2' 'build-tools;36.0.0'
+          sdk_manager="${ANDROID_HOME:-/usr/local/lib/android/sdk}/cmdline-tools/latest/bin/sdkmanager"
+          test -x "$sdk_manager"
+          printf 'y\n%.0s' {1..50} | "$sdk_manager" --licenses > /dev/null
+          "$sdk_manager" 'platforms;android-37.2' 'build-tools;36.0.0'
       - name: Build, unit tests and lint
         run: |
           chmod +x gradlew
