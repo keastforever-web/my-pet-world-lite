@@ -1,0 +1,7 @@
+{
+  "source": "https://raw.githubusercontent.com/mozillazg/pinyin-data/master/pinyin.txt",
+  "license": "MIT",
+  "sha256": "621f8ca9eff8519f47e2b17b564fd318161e13bca07eea8c8e04993cd5d3b52e",
+  "syllables": 419,
+  "note": "Derived basic CJK syllable-to-character index; accents normalized, \u00fc maps to v."
+}

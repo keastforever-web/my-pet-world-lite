@@ -1,0 +1,23 @@
+{
+  "reviewed_on": "2026-10-11",
+  "public_distribution_review_complete": false,
+  "items": [
+    {
+      "path": "core/data/src/main/assets/sprites-v16/pack16-*",
+      "source": "User-supplied 40-animation pack, converted to 128px sprites",
+      "role_count": 5,
+      "redistribution_status": "Needs rights-holder/source confirmation"
+    },
+    {
+      "path": "core/data/src/main/assets/sprites-v16/bear16-*",
+      "source": "Generated from user reference to Teddy Demon anime character",
+      "role_count": 5,
+      "redistribution_status": "Reference-character rights not established by generation"
+    },
+    {
+      "path": "core/imaging/src/main/assets/u2netp.onnx",
+      "source": "See licenses/model-provenance.json",
+      "redistribution_status": "Upstream project notices retained; weight-specific scope to review"
+    }
+  ]
+}

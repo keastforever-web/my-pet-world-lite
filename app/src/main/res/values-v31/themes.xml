@@ -1,0 +1,11 @@
+<resources>
+ <style name="Theme.CyberBeads" parent="android:style/Theme.Material.NoActionBar">
+  <item name="android:fontFamily">sans</item>
+  <item name="android:windowLightStatusBar">true</item>
+  <item name="android:windowLightNavigationBar">true</item>
+  <item name="android:windowActionModeOverlay">true</item>
+  <item name="android:colorAccent">#9AF5CE</item>
+  <item name="android:windowBackground">#FFF6ED</item>
+  <item name="android:windowSplashScreenBackground">#FFF6ED</item>
+ </style>
+</resources>

@@ -1,0 +1,38 @@
+{
+  "version": "0.16.3",
+  "version_code": 21,
+  "build_type": "debug",
+  "package": "studio.cyberbeads.app.lite",
+  "test_device": "Android API34 x86_64 emulator",
+  "device_cases_covered": 17,
+  "core_unit_tests_passed": 62,
+  "lint_errors": 0,
+  "lint_warnings": 48,
+  "code_license_selected": true,
+  "code_license": "MIT",
+  "asset_distribution_review_complete": false,
+  "github_ci_executed": false,
+  "apks": [
+    {
+      "abi": "arm64-v8a",
+      "sha256": "9a84fd6a29ff8dc61660c45cabeff39362c5c2d26fff54cdc80b74397e37f81c",
+      "bytes": 66442034,
+      "certificate_sha256": "3d505a4bae664b5b50eea79b89158724357b940b58eaaf19c896885a4b5c2670",
+      "file": "PetWorld-Lite-0.16.3-arm64-v8a.apk"
+    },
+    {
+      "abi": "armeabi-v7a",
+      "sha256": "a3c20737500170bda2a5ab0404b134eaec8557212895c233d1734d79ec273ffa",
+      "bytes": 56729032,
+      "certificate_sha256": "3d505a4bae664b5b50eea79b89158724357b940b58eaaf19c896885a4b5c2670",
+      "file": "PetWorld-Lite-0.16.3-armeabi-v7a.apk"
+    },
+    {
+      "abi": "x86_64",
+      "sha256": "afe826f5428abae5d76b9aba48d45d7159536af84f90cb95b002aeaf8d5bf8a6",
+      "bytes": 72787401,
+      "certificate_sha256": "3d505a4bae664b5b50eea79b89158724357b940b58eaaf19c896885a4b5c2670",
+      "file": "PetWorld-Lite-0.16.3-x86_64.apk"
+    }
+  ]
+}

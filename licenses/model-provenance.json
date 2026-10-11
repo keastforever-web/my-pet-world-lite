@@ -1,0 +1,15 @@
+{
+  "fast": {
+    "source": "https://github.com/danielgatis/rembg/releases/download/v0.0.0/u2netp.onnx",
+    "published_md5": "8e83ca70e441ab06c318d82300c84806",
+    "sha256": "309c8469258dda742793dce0ebea8e6dd393174f89934733ecc8b14c76f4ddd8",
+    "bytes": 4574861
+  },
+  "detailed": {
+    "source": "https://github.com/danielgatis/rembg/releases/download/v0.0.0/u2net.onnx",
+    "published_md5": "60024c5c889badc19c04ad937298a77b",
+    "sha256": "8d10d2f3bb75ae3b6d527c77944fc5e7dcd94b29809d47a739a7a728a912b491",
+    "bytes": 175997641,
+    "reference": "https://github.com/danielgatis/rembg/blob/main/rembg/sessions/u2net.py"
+  }
+}

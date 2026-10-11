@@ -1,0 +1,6 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+ <application>
+  <!-- Local image processing must not auto-initialize the SDK telemetry transport. -->
+  <provider android:name="ai.onnxruntime.TelemetryInitializer" tools:node="remove"/>
+ </application>
+</manifest>

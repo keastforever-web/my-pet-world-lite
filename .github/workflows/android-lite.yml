@@ -1,0 +1,43 @@
+name: Lite checks
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: lite-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-java@v6
+        with:
+          distribution: temurin
+          java-version: '25'
+      - name: Check distributable files and assets
+        run: python3 tools/check_release.py
+      - name: Install pinned Android SDK
+        run: |
+          printf 'y\n%.0s' {1..50} | sdkmanager --licenses > /dev/null
+          sdkmanager 'platforms;android-37.2' 'build-tools;36.0.0'
+      - name: Build, unit tests and lint
+        run: |
+          chmod +x gradlew
+          ./gradlew --no-daemon :app:assembleLiteDebug :core:model:test :app:testLiteDebugUnitTest :app:lintLiteDebug
+      - name: Save checks (not an official signed release)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: lite-check-reports
+          path: |
+            app/build/reports/
+            core/model/build/reports/tests/
+          if-no-files-found: warn
+          retention-days: 14

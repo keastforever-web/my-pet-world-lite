@@ -1,0 +1,102 @@
+[
+  {
+    "id": "builtin-dog",
+    "name": "草莓小狗",
+    "category": "默认动物"
+  },
+  {
+    "id": "builtin-snake",
+    "name": "紫芋小蛇",
+    "category": "默认动物"
+  },
+  {
+    "id": "builtin-bunny",
+    "name": "奶油兔兔",
+    "category": "默认动物"
+  },
+  {
+    "id": "builtin-cat",
+    "name": "薄荷小猫",
+    "category": "默认动物"
+  },
+  {
+    "id": "pack16-1",
+    "name": "橘龙",
+    "category": "龙",
+    "width": 128,
+    "height": 128,
+    "actions": 8
+  },
+  {
+    "id": "pack16-2",
+    "name": "红龙",
+    "category": "龙",
+    "width": 128,
+    "height": 128,
+    "actions": 8
+  },
+  {
+    "id": "pack16-3",
+    "name": "蓝龙",
+    "category": "龙",
+    "width": 128,
+    "height": 128,
+    "actions": 8
+  },
+  {
+    "id": "pack16-4",
+    "name": "紫龙",
+    "category": "龙",
+    "width": 128,
+    "height": 128,
+    "actions": 8
+  },
+  {
+    "id": "pack16-5",
+    "name": "鼠大师",
+    "category": "鼠大师",
+    "width": 128,
+    "height": 128,
+    "actions": 8
+  },
+  {
+    "id": "bear16-honey",
+    "name": "蜂蜜·抱抱熊",
+    "category": "小熊",
+    "width": 128,
+    "height": 128,
+    "actions": 8
+  },
+  {
+    "id": "bear16-rose",
+    "name": "桃桃·月牙熊",
+    "category": "小熊",
+    "width": 128,
+    "height": 128,
+    "actions": 8
+  },
+  {
+    "id": "bear16-lilac",
+    "name": "星星·晚安熊",
+    "category": "小熊",
+    "width": 128,
+    "height": 128,
+    "actions": 8
+  },
+  {
+    "id": "bear16-mint",
+    "name": "薄荷·小叶熊",
+    "category": "小熊",
+    "width": 128,
+    "height": 128,
+    "actions": 8
+  },
+  {
+    "id": "bear16-blue",
+    "name": "蓝蓝·眠星熊",
+    "category": "小熊",
+    "width": 128,
+    "height": 128,
+    "actions": 8
+  }
+]
